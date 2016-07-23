@@ -51,3 +51,32 @@ table {
   header
   ========================================
 */
+
+body {
+    font-family: 'lato';
+}
+
+.header {
+    background: #a3a3a3;
+    font-family: 'lato';
+}
+
+
+.nav-bar{
+    text-align: center;
+    word-spacing: 20px;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.mid-header {
+    color: #fff;
+}
