@@ -109,6 +109,10 @@ nav ul li a{
 	width: 49.2%;
 }
 
+.area_1_of_2 img{
+     width: 100%
+}
+
 /*
   ========================================
   GO FULL WIDTH AT LESS THAN 480 PIXELS
@@ -244,6 +248,13 @@ nav ul li a{
     background: #333;
 }
 
+.social {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    word-spacing: 20px;
+}
+
 .social a{
     color: #fff;
     text-decoration: none;
@@ -251,7 +262,16 @@ nav ul li a{
 
 .social ul li {
     display: inline-block;
-    word-spacing: 20px;
+    line-height: normal
 }
 
-.social 
+.social a:hover {
+    color: #a9a9a9;
+}
+
+.copyright {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+    line-height: normal;
+}
