@@ -119,9 +119,16 @@ nav ul li a{
 	.area_2_of_2 {
 		width: 100%; 
 	}
+    
 	.area_1_of_2 {
 		width: 100%; 
 	}
+    
+    .mid-header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
 }
 
 /*
@@ -177,3 +184,74 @@ nav ul li a{
 		margin: 1% 0 1% 0%;
 	}
 }
+
+/*
+  ========================================
+  ABOUT SECTION
+  ========================================
+*/
+
+.about {
+    background: #ddd;
+    padding-bottom: 50px
+}
+
+.about h1 {
+    font-size: 40px;
+    padding: 40px 0 10px 60px;
+}
+
+.about h2 {
+    font-size: 30px;
+    padding: 0 0 0 60px;
+}
+
+/*
+  ========================================
+  CONTACT SECTION
+  ========================================
+*/
+
+.contact {
+    padding-bottom: 20px;
+}
+
+.contact h1 {
+    font-size: 40px;
+    padding: 40px 0 10px 60px;
+}
+
+.contact h2 {
+    font-size: 30px;
+    line-height: normal;
+    padding: 0 0 0 60px;
+}
+
+.contact h3 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: normal;
+    padding: 0 0 0 60px;
+}
+
+/*
+  ========================================
+  FOOTER SECTION
+  ========================================
+*/
+
+.footer {
+    background: #333;
+}
+
+.social a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.social ul li {
+    display: inline-block;
+    word-spacing: 20px;
+}
+
+.social 
