@@ -78,14 +78,20 @@ nav ul li a{
 
 .mid-header {
     color: #fff;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 800;
-    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .mid-header h1 {
-    padding-top: 250px;
-    padding-bottom: 250px;
+    padding-top: 150px;
+    line-height: normal;
+}
+
+.mid-header h2 {
+    color: #a9a9a9;
+    padding-bottom: 150px;
 }
 
 /*
@@ -115,5 +121,59 @@ nav ul li a{
 	}
 	.area_1_of_2 {
 		width: 100%; 
+	}
+}
+
+/*
+  ========================================
+    SECTIONS
+  ========================================
+*/
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*
+  ========================================
+  GROUPS
+  ========================================
+*/
+
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*
+  ========================================
+  GRID COLUMN SETUP
+  ========================================
+*/
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 0% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
 	}
 }
