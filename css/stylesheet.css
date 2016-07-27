@@ -65,6 +65,8 @@ body {
     text-align: center;
     word-spacing: 20px;
     padding: 20px;
+    position: fixed;
+    width: 100%;
 }
 
 nav ul li {
@@ -212,6 +214,7 @@ nav ul li a{
 
 .about h2 {
     font-size: 30px;
+    font-weight: 300;
     padding: 0 0 0 60px;
 }
 
@@ -228,12 +231,13 @@ nav ul li a{
 .contact h1 {
     font-size: 40px;
     padding: 40px 0 10px 60px;
+    text-align: center;
 }
 
 .contact h2 {
     font-size: 30px;
     line-height: normal;
-    padding: 0 0 0 60px;
+    padding: 100px 0 0 60px;
 }
 
 .contact h3 {
@@ -243,6 +247,13 @@ nav ul li a{
     padding: 0 0 0 60px;
 }
 
+.contact1 {
+    height: 400px;
+}
+
+.contact2 {
+    background: #E21D1D;
+}
 /*
   ========================================
   FOOTER SECTION
