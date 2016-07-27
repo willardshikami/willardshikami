@@ -1,0 +1,1 @@
+var nb = $ (".nav-bar");
