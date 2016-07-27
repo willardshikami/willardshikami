@@ -62,7 +62,7 @@ body {
 
 
 .nav-bar{
-    background: #333;
+    background: #fff;
     text-align: center;
     word-spacing: 20px;
     padding: 20px;
@@ -75,8 +75,12 @@ nav ul li {
 }
 
 nav ul li a{
-    color: #fff;
+    color: #000;
     text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #a9a9a9;
 }
 
 .mid-header {
@@ -93,7 +97,7 @@ nav ul li a{
 }
 
 .mid-header h2 {
-    color: #a9a9a9;
+    color: #ddd;
     padding-bottom: 150px;
 }
 
@@ -110,7 +114,23 @@ nav ul li a{
     height: 500px;
     text-align: center;
     line-height: 40px;
-    background: #f7f7f7;
+}
+
+.project1,
+.project4 {
+    color: #fff;
+    background: #333;
+}
+
+.project1 .btn:hover,
+.project4 .btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.project2 .btn:hover,
+.project3 .btn:hover {
+    background: #333;
 }
 
 .project1 h2,
@@ -133,7 +153,7 @@ nav ul li a{
 }
 
 .btn {
-    background: #333;
+    background: #a9a9a9;
     border-radius: 0;
     color: #fff;
     cursor: pointer;
@@ -148,7 +168,9 @@ nav ul li a{
     text-align: center;
     border: 1px solid ;
     padding: 0px 10px;
+    border: none;
 }
+
 
 /*
   ========================================
