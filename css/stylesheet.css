@@ -133,6 +133,10 @@ nav ul li a{
         padding-right: 10px;
     }
     
+    body {
+        font-size: 15px;
+    }
+    
 }
 
 /*
@@ -197,7 +201,8 @@ nav ul li a{
 
 .about {
     background: #ddd;
-    padding-bottom: 50px
+    padding-bottom: 50px;
+    text-align: center;
 }
 
 .about h1 {
@@ -232,7 +237,7 @@ nav ul li a{
 }
 
 .contact h3 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 300;
     line-height: normal;
     padding: 0 0 0 60px;
