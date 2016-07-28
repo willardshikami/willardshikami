@@ -117,21 +117,22 @@ nav ul li a:hover {
 }
 
 .project1,
+.project2,
+.project3,
 .project4 {
     color: #fff;
     background: #333;
 }
 
+
 .project1 .btn:hover,
+.project2 .btn:hover,
+.project3 .btn:hover,
 .project4 .btn:hover {
     background: #fff;
     color: #000;
 }
 
-.project2 .btn:hover,
-.project3 .btn:hover {
-    background: #333;
-}
 
 .project1 h2,
 .project2 h2,
@@ -145,7 +146,7 @@ nav ul li a:hover {
 }
 
 .area_1_of_2 {
-	width: 50%;
+	width: 48%;
 }
 
 .area_1_of_2 img{
@@ -171,6 +172,10 @@ nav ul li a:hover {
     border: none;
 }
 
+#projects-scroll {
+    background-image: url(../images/projectsbg.jpg);
+    background-size: cover
+}
 
 /*
   ========================================
@@ -238,10 +243,10 @@ nav ul li a:hover {
 .col {
 	display: block;
 	float:left;
-	margin: 0 0 0 0;
+	margin: 1% 1% 1% 1%;
 }
 
-.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+.col:first-child { margin-left: 1%; } /* all browsers except IE6 and lower */
 
 
 /*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
@@ -258,9 +263,14 @@ nav ul li a:hover {
   ========================================
 */
 
+
 .about {
-    background: #ddd;
-    padding-bottom: 50px;
+    background-image: url(../images/aboutbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 500px;
+    opacity: ;
     text-align: center;
 }
 
@@ -268,6 +278,7 @@ nav ul li a:hover {
     font-size: 40px;
     padding: 40px 0 10px 60px;
 }
+
 
 .about h2 {
     font-size: 30px;
@@ -348,3 +359,12 @@ nav ul li a:hover {
     padding-bottom: 20px;
     line-height: normal;
 }
+
+
+import csv
+with open('MOCK_DATA.csv') as csvfile:
+    sep = b","  # notice the b before the "
+    data_reader = csv.reader(csvfile, delimiter=sep)
+    id_number = int(raw_input('Enter your id please: '))
+    for row in data_reader:
+        print row[1]
