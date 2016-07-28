@@ -255,6 +255,10 @@ nav ul li a:hover {
 	.col { 
 		margin: 0 0 0 0;
 	}
+    
+    form {
+    margin: inherit;
+    }
 }
 
 /*
@@ -270,7 +274,6 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     color: #fff;
     height: 500px;
-    opacity: ;
     text-align: center;
 }
 
@@ -320,7 +323,7 @@ nav ul li a:hover {
 }
 
 .contact2 {
-    background: #E21D1D;
+    background: ;
 }
 /*
   ========================================
@@ -367,8 +370,8 @@ nav ul li a:hover {
 */
 
 .col-1-3{
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: ;
+  padding-right: ;
 }
 
 .col-1-3  {
@@ -380,13 +383,9 @@ nav ul li a:hover {
   width: 50%
 }
 
-.why-attend {
-    list-style: square;
-    margin: 0 0 22px 30px;
-}
 
 form {
-    margin-bottom: 22px;
+    margin: 
 }
 
 input,
@@ -395,15 +394,15 @@ textarea {
     font: 300 16px/22px "Lato";
 }
 
-.register-group label {
+.contact-group label {
     color: #000;
     cursor: pointer;
     font-weight: 400;
 }
 
-.register-group input,
-.register-group select,
-.register-group textarea {
+.contact-group input,
+.contact-group select,
+.contact-group textarea {
     border: 1px solid #c6c9cc;
     border-radius: 5px;
     color: #888;
@@ -412,17 +411,13 @@ textarea {
     padding: 5px 8px;
 }
 
-.register-group input,
-.register-group textarea {
+.contact-group input,
+.contact-group textarea {
     width: 100%;
 }
 
-.register-group select {
-    height: 32px;
-    width: 60px;
-}
 
-register-group textarea {
+.contact-group textarea {
     height: 78px;
 }
 
