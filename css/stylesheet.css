@@ -124,6 +124,10 @@ nav ul li a:hover {
     background: #333;
 }
 
+.project1,
+.project3 {
+    border-right: 1px solid #fff;
+}
 
 .project1 .btn:hover,
 .project2 .btn:hover,
@@ -146,7 +150,7 @@ nav ul li a:hover {
 }
 
 .area_1_of_2 {
-	width: 48%;
+	width: 49.96%;
 }
 
 .area_1_of_2 img{
@@ -243,10 +247,10 @@ nav ul li a:hover {
 .col {
 	display: block;
 	float:left;
-	margin: 1% 1% 1% 1%;
+	margin: 0 0 0 0;
 }
 
-.col:first-child { margin-left: 1%; } /* all browsers except IE6 and lower */
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
 
 
 /*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
@@ -421,10 +425,3 @@ textarea {
     height: 78px;
 }
 
-import csv
-with open('MOCK_DATA.csv') as csvfile:
-    sep = b","  # notice the b before the "
-    data_reader = csv.reader(csvfile, delimiter=sep)
-    id_number = int(raw_input('Enter your id please: '))
-    for row in data_reader:
-        print row[1]
