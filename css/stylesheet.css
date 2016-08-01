@@ -48,7 +48,7 @@ table {
 
 /*
   ========================================
-  header
+  HEADER
   ========================================
 */
 
@@ -84,15 +84,15 @@ nav ul li a:hover {
 }
 
 .mid-header {
-    color: #fff;
-    font-size: 70px;
-    font-weight: 800;
-    padding-left: 60px;
-    padding-right: 60px;
+    background-image: url(../images/header3.jpeg);
+    background-attachment: scroll;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 350px;
+    padding-bottom: 450px;
 }
 
 .mid-header h1 {
-    padding-top: 150px;
     line-height: normal;
 }
 
