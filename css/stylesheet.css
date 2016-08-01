@@ -60,13 +60,17 @@ body {
     background: #333;
 }
 
+.logo h1{
+    color: #000;
+    float: left;
+    font-size: 50px
+}
 
 .nav-bar{
     background: #fff;
-    text-align: center;
+    text-align: right;
     word-spacing: 20px;
-    padding: 20px;
-    position: fixed;
+    padding: 20px 20px 20px 0px;
     width: 100%;
 }
 
@@ -86,15 +90,13 @@ nav ul li a:hover {
 .mid-header {
     background-image: url(../images/header1.jpg);
     background-attachment: scroll;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 350px;
     padding-bottom: 450px;
 }
 
-.mid-header h1 {
-    line-height: normal;
-}
+
 
 .mid-header h2 {
     color: #ddd;
