@@ -53,11 +53,12 @@ table {
 */
 
 body {
+    max-width: 100%;
     font-family: 'Raleway';
 }
 
 .header {
-    
+    max-width: inherit;
 }
 
 .logo h1{
