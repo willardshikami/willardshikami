@@ -95,11 +95,11 @@ nav ul li a:hover {
 
 .mid-header {
     background-image: url(../images/header1.jpg);
-    background-attachment: scroll;
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 350px;
     padding-bottom: 450px;
+    height: inherit;
 }
 
 
@@ -186,7 +186,7 @@ nav ul li a:hover {
 
 #projects-scroll {
     background-image: url(../images/projectsbg.jpg);
-    background-size: cover
+    background-size: cover;
 }
 
 /*
