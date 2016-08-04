@@ -57,12 +57,15 @@ body {
 }
 
 .header {
-    background: #333;
+    background-image: url(../images/header1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
 }
 
 
 .nav-bar{
-    background: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     word-spacing: 20px;
     padding: 20px;
@@ -76,7 +79,7 @@ nav ul li {
 }
 
 nav ul li a{
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 
