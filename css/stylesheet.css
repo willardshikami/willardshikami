@@ -72,6 +72,7 @@ body {
 
 nav ul li {
     display: inline-block;
+    font-weight: 600;
 }
 
 nav ul li a{
@@ -173,7 +174,7 @@ nav ul li a:hover {
 }
 
 #projects-scroll {
-    background-image: url(../images/projectsbg.jpg);
+    background-image: url();
     background-size: cover
 }
 
@@ -303,28 +304,25 @@ nav ul li a:hover {
     font-size: 40px;
     padding: 40px 0 10px 60px;
     text-align: center;
+    font-weight: 700;
 }
 
 .contact h2 {
     font-size: 30px;
     line-height: normal;
-    padding: 100px 0 0 60px;
-}
-
-.contact h3 {
-    font-size: 25px;
+    padding-bottom: 30px;
+    text-align: center;
     font-weight: 300;
-    line-height: normal;
-    padding: 0 0 0 60px;
 }
 
-.contact1 {
-    height: 400px;
+
+
+.contact-form{
+    background: #;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
-.contact2 {
-    background: ;
-}
 /*
   ========================================
   FOOTER SECTION
@@ -385,13 +383,13 @@ nav ul li a:hover {
 
 
 form {
-    margin: 
+    text-align: left;
 }
 
 input,
 select,
 textarea {
-    font: 300 16px/22px "Lato";
+    font: 300 16px/22px 'Varela Round';
 }
 
 .contact-group label {
@@ -399,6 +397,7 @@ textarea {
     cursor: pointer;
     font-weight: 400;
 }
+
 
 .contact-group input,
 .contact-group select,
@@ -421,3 +420,14 @@ textarea {
     height: 78px;
 }
 
+.bttn {
+    background: #333;
+    border: 2px solid #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.bttn:hover {
+    background: #fff;
+    color: #000;
+}
