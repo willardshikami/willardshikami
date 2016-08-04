@@ -298,14 +298,16 @@ nav ul li a:hover {
 
 .about h1 {
     font-size: 40px;
-    padding: 40px 0 10px 60px;
+    padding: 40px 0 10px 0px;
+    font-weight: 800;
+    
 }
 
 
 .about h2 {
     font-size: 30px;
     font-weight: 300;
-    padding: 0 0 0 60px;
+    line-height: 40px;
 }
 
 /*
