@@ -96,7 +96,7 @@ nav ul li a:hover {
 }
 
 .mid-header h1 {
-    padding-top: 150px;
+    padding-top: 250px;
     line-height: normal;
 }
 
@@ -262,6 +262,21 @@ nav ul li a:hover {
     
     form {
     margin: inherit;
+    }
+    
+    .header{
+        height: inherit;
+        font-size: inherit;
+    }
+    
+    .mid-header h1 {
+    padding-top: 150px;
+    line-height: normal;
+    font-size: 60px;
+    }
+    
+    .mid-header h2{
+        font-size: 60px;
     }
 }
 
