@@ -120,17 +120,19 @@ nav ul li a:hover {
     line-height: 40px;
 }
 
-.project2 h2{
+.project2 h2,
+.project3 h2{
     padding-top: 150px;
 }
 
-.fog-line{
+.line{
     width: 30%;
 }
 
-.project2 .btn {
+.project2 .btn,
+.project3 .btn{
     background: #fff;
-    border: 2px solid #000;
+    border: 2px solid #ff3333;
     color: #000;
 }
 
