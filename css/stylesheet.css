@@ -120,21 +120,26 @@ nav ul li a:hover {
     line-height: 40px;
 }
 
-.project1,
-.project2,
-.project3,
-.project4 {
-    color: #fff;
-    background: #333;
+.project2 h2{
+    padding-top: 150px;
 }
 
+.fog-line{
+    width: 30%;
+}
+
+.project2 .btn {
+    background: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
 
 .project1 .btn:hover,
 .project2 .btn:hover,
 .project3 .btn:hover,
 .project4 .btn:hover {
-    background: #fff;
-    color: #000;
+    background: #ff3333;
+    color: #fff;
 }
 
 
@@ -150,7 +155,11 @@ nav ul li a:hover {
 }
 
 .area_1_of_2 {
-	width: 48%;
+	width: 66%;
+}
+
+.area1_1_of_2{
+    width: 30%
 }
 
 .area_1_of_2 img{
