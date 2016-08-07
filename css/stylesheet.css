@@ -64,6 +64,7 @@ body {
 }
 
 
+
 .nav-bar{
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
@@ -95,10 +96,15 @@ nav ul li a:hover {
     padding-right: 60px;
 }
 
+
+
+
 .mid-header h1 {
     padding-top: 250px;
     line-height: normal;
 }
+
+
 
 .mid-header h2 {
     color: #ddd;
