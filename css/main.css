@@ -78,6 +78,11 @@ body {
     line-height: normal;
 }
 
+.mid-header2 h2{
+    font-size: 30px;
+}
+
+
 .header2 {
     background-image: url(../images/photography.jpg);
     background-size: cover;
