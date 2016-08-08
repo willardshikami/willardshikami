@@ -97,8 +97,6 @@ nav ul li a:hover {
 }
 
 
-
-
 .mid-header h1 {
     padding-top: 250px;
     line-height: normal;
@@ -133,6 +131,19 @@ nav ul li a:hover {
 
 .line{
     width: 30%;
+}
+
+.project1 h4,
+.project2 h4,
+.project3 h4 {
+    font-size: 18px;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+.project1 h3,
+.project2 h3 {
+    font-size: 20px;
 }
 
 .project2 .btn,
