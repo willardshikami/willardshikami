@@ -56,6 +56,15 @@ body {
     font-family: 'Varela Round';
 }
 
+*,::before,::after { 
+    box-sizing:border-box; 
+}
+
+
+:focus { 
+    outline:none; 
+}
+
 .header {
     background-image: url(../images/header1.jpg);
     background-size: cover;
