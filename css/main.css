@@ -63,6 +63,7 @@ body {
   ========================================
 */
 
+
 .mid-header2 {
     color: #fff;
     font-size: 70px;
@@ -74,7 +75,7 @@ body {
 
 
 .mid-header2 h1 {
-    padding-top: 250px;
+    padding-top: 200px;
     line-height: normal;
 }
 
@@ -84,10 +85,10 @@ body {
 
 
 .header2 {
-    background-image: url(../images/photography.jpg);
+    background-image: url(../images/photography.jpeg);
     background-size: cover;
     background-attachment: fixed;
-    height: 500px;
+    height: 400px;
 }
 
 
