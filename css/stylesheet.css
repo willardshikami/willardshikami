@@ -175,13 +175,14 @@ nav ul li a:hover {
 }
 
 .area_1_of_2 {
-	width: 66%;
+	width: 68%;
     height: 420px;
 }
 
 .area1_1_of_2{
+    background: #f2f2f2;
     width: 30%;
-    height: 420px;
+    height: 435px;
 }
 
 .area_1_of_2 img{
@@ -208,8 +209,7 @@ nav ul li a:hover {
 }
 
 #projects-scroll {
-    background-image: url();
-    background-size: cover
+    
 }
 
 /*
@@ -278,7 +278,7 @@ nav ul li a:hover {
 .col {
 	display: block;
 	float:left;
-	margin: 1% 1% 1% 1%;
+	margin: 1% 0 1% 0;
 }
 
 .col:first-child { margin-left: 1%; } /* all browsers except IE6 and lower */
