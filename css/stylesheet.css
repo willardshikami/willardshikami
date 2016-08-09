@@ -128,14 +128,14 @@ nav ul li a:hover {
 .project2,
 .project3,
 .project4 {
-    height: 500px;
+    height: ;
     text-align: center;
     line-height: 40px;
 }
 
 .project2 h2,
 .project3 h2{
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .line{
@@ -179,24 +179,6 @@ nav ul li a:hover {
     font-size: 30px;
 }
 
-.area_2_of_2 {
-	width: 100%;
-}
-
-.area_1_of_2 {
-	width: 68%;
-    height: 420px;
-}
-
-.area1_1_of_2{
-    background: #f2f2f2;
-    width: 30%;
-    height: 435px;
-}
-
-.area_1_of_2 img{
-     width: 100%;
-}
 
 .btn {
     background: #a9a9a9;
@@ -220,6 +202,24 @@ nav ul li a:hover {
 #projects-scroll {
     
 }
+/*
+  ========================================
+  GRID OF TWO
+  ========================================
+*/
+
+
+.area_2_of_2 {
+	width: 100%;
+}
+
+.area_1_of_2 {
+	width: 49.2%;   
+}
+
+.area_1_of_2 img{
+    width: 100%;
+}
 
 /*
   ========================================
@@ -231,11 +231,11 @@ nav ul li a:hover {
 	.area_2_of_2 {
 		width: 100%; 
 	}
-    
 	.area_1_of_2 {
 		width: 100%; 
 	}
     
+        
     .mid-header {
         padding-left: 10px;
         padding-right: 10px;
@@ -246,6 +246,7 @@ nav ul li a:hover {
     }
     
 }
+
 
 /*
   ========================================
@@ -287,20 +288,20 @@ nav ul li a:hover {
 .col {
 	display: block;
 	float:left;
-	margin: 1% 0 1% 0;
+	margin: 1% 0 1% 1.6%;
 }
 
-.col:first-child { margin-left: 1%; } /* all browsers except IE6 and lower */
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
 
 
 /*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
 	.col { 
-		margin: 0 0 0 0;
+		margin: 1% 0 1% 0%;
 	}
     
-    form {
+     form {
     margin: inherit;
     }
     
@@ -319,6 +320,8 @@ nav ul li a:hover {
         font-size: 60px;
     }
 }
+
+
 
 /*
   ========================================
