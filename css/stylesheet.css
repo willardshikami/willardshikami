@@ -128,14 +128,14 @@ nav ul li a:hover {
 .project2,
 .project3,
 .project4 {
-    height: ;
+    height: 325px;
     text-align: center;
     line-height: 40px;
 }
 
 .project2 h2,
 .project3 h2{
-    padding-top: 0px;
+    padding-top: 50px;
 }
 
 .line{
@@ -246,6 +246,15 @@ nav ul li a:hover {
     body {
         font-size: 15px;
     }
+    
+    .project1,
+    .project2,
+    .project3,
+    .project4 {
+    height: inherit;
+    text-align: center;
+    line-height: 40px;
+}
     
 }
 
