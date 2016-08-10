@@ -114,33 +114,34 @@ nav ul li a:hover {
     color: #a9a9a9;
 }
 
+
 /*
   ========================================
-  GRID OF FOUR
+  LINKS
+  ========================================
+*/
+
+
+
+/*
+  ========================================
+  GRID OF THREE
   ========================================
 */
 
 	
-.area_4_of_4 {
+.area_3_of_3 {
 	width: 100%; 
 }
 
-.area_3_of_4 {
-	width: 74.6%; 
+.area_2_of_3 {
+	width: 66.13%; 
 }
 
-.area_2_of_4 {
-	width: 49.2%; 
+.area_1_of_3 {
+	width: 32.26%; 
 }
 
-.area_1_of_4 {
-    text-align: center;
-	width: 23.8%; 
-}
-
-.area_1_of_4 img {
-    width: 100%;
-}
 
 /*
   ========================================
@@ -149,19 +150,22 @@ nav ul li a:hover {
 */
 
 @media only screen and (max-width: 480px) {
-	.area_4_of_4 {
+	.area_3_of_3 {
 		width: 100%; 
 	}
-	.area_3_of_4 {
+	.area_2_of_3 {
 		width: 100%; 
 	}
-	.area_2_of_4 {
-		width: 100%; 
-	}
-	.area_1_of_4 {
-		width: 100%; 
+	.area_1_of_3 {
+		width: 100%;
 	}
 }
+
+.area_1_of_3 img {
+        width: 100%;
+    }
+
+/*
 
 /*
   ========================================
