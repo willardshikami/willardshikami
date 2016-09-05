@@ -359,9 +359,10 @@ nav ul li a:hover {
 
 
 .about h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 300;
     line-height: 40px;
+    padding: 20px 30px 30px 30px
 }
 
 /*
