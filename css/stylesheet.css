@@ -120,92 +120,6 @@ nav ul li a:hover {
 
 /*
   ========================================
-  PORTFOLIO GRID OF TWO
-  ========================================
-*/
-
-.project1,
-.project2,
-.project3,
-.project4 {
-    height: 325px;
-    text-align: center;
-    line-height: 40px;
-}
-
-.project2 h2,
-.project3 h2{
-    padding-top: 50px;
-}
-
-.line{
-    width: 30%;
-}
-
-.project1 h4,
-.project2 h4,
-.project3 h4 {
-    font-size: 18px;
-    line-height: normal;
-    padding-bottom: 20px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-.project1 h3,
-.project2 h3,
-.project3 h3 {
-    font-size: 20px;
-}
-
-.project2 .btn,
-.project3 .btn{
-    background: #fff;
-    border: 2px solid #ff3333;
-    color: #000;
-}
-
-.project1 .btn:hover,
-.project2 .btn:hover,
-.project3 .btn:hover,
-.project4 .btn:hover {
-    background: #ff3333;
-    color: #fff;
-}
-
-
-.project1 h2,
-.project2 h2,
-.project3 h2,
-.project4 h2{
-    font-size: 30px;
-}
-
-
-.btn {
-    background: #a9a9a9;
-    border-radius: 0;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 400;
-    letter-spacing: .5px;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-.btn-alt {
-    text-align: center;
-    border: 1px solid ;
-    padding: 0px 10px;
-    border: none;
-}
-
-#projects-scroll {
-    
-}
-/*
-  ========================================
   GRID OF TWO
   ========================================
 */
@@ -216,15 +130,28 @@ nav ul li a:hover {
 }
 
 .area_1_of_2 {
-	width: 50%;   
+	width: 50%;
 }
 
-.area_1_of_2 img{
-    width: 100%;
-}
 
 
 /*
+  ========================================
+  PORTFOLIO SECTION
+  ========================================
+*/
+.project1 {
+    background-image: url(../images/fog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+
+
+
+
+
   ========================================
     SECTIONS
   ========================================
@@ -307,10 +234,8 @@ nav ul li a:hover {
 
 
 .about {
-    background-image: url(../images/aboutbg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
     height: 500px;
     text-align: center;
 }
@@ -358,7 +283,6 @@ nav ul li a:hover {
 
 
 .contact-form{
-    background: #;
     text-align: center;
     padding-bottom: 20px;
 }
@@ -462,6 +386,7 @@ textarea {
 .bttn:hover {
     background: #fff;
     color: #000;
+    cursor: pointer;
 }
 
 
@@ -491,17 +416,13 @@ textarea {
         font-size: 15px;
     }
     
-    .project1,
-    .project2,
-    .project3,
-    .project4 {
-    height: inherit;
-    text-align: center;
-    line-height: 40px;
-    }
-    
 }
 
-@media only screen and (max-width: 480px) {
-    
+    @media only screen and (max-width: 480px) {
+	.area_2_of_2 {
+		width: 100%; 
+	}
+	.area_1_of_2 {
+		width: 100%; 
+	}
 }
