@@ -115,7 +115,7 @@ nav ul li a:hover {
 
 .mid-header h2 {
     color: #ddd;
-    padding-bottom: 150px;
+    line-height: normal;
 }
 
 /*
@@ -131,6 +131,7 @@ nav ul li a:hover {
 
 .area_1_of_2 {
 	width: 50%;
+    height: 600px;
 }
 
 
@@ -145,6 +146,17 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
+}
+
+.project2 {
+    background-image: url(../images/environment.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.project3 {
+    
 }
 
 
@@ -225,7 +237,6 @@ nav ul li a:hover {
 }
 
 
-
 /*
   ========================================
   ABOUT SECTION
@@ -236,7 +247,7 @@ nav ul li a:hover {
 .about {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 400px;
     text-align: center;
 }
 
@@ -377,15 +388,15 @@ textarea {
 }
 
 .bttn {
-    background: #333;
+    background: #fff;
     border: 2px solid #333;
-    color: #fff;
+    color: #000;
     padding: 10px 20px;
 }
 
 .bttn:hover {
-    background: #fff;
-    color: #000;
+    background: #333;
+    color: #fff;
     cursor: pointer;
 }
 
