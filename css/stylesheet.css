@@ -140,8 +140,10 @@ nav ul li a:hover {
   ========================================
 */
 
-projects {
-    
+.projects {
+    font-size: 40px;
+    padding: 40px 0 10px 20px;
+    font-weight: 800;
 }
 
 .project1,
@@ -264,11 +266,11 @@ projects {
     .mid-header h1 {
     padding-top: 150px;
     line-height: normal;
-    font-size: 60px;
+    font-size: 50px;
     }
     
     .mid-header h2{
-        font-size: 60px;
+        font-size: 50px;
     }
 }
 
@@ -284,12 +286,11 @@ projects {
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
-    text-align: center;
 }
 
 .about h1 {
     font-size: 40px;
-    padding: 40px 0 10px 0px;
+    padding: 40px 0 10px 20px;
     font-weight: 800;
     
 }
@@ -299,7 +300,8 @@ projects {
     font-size: 25px;
     font-weight: 300;
     line-height: 40px;
-    padding: 20px 30px 30px 30px
+    padding: 20px 30px 30px 30px;
+    text-align: center;
 }
 
 /*
@@ -455,6 +457,7 @@ textarea {
     
         
     .mid-header {
+        font-size: 60px;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -463,6 +466,12 @@ textarea {
         font-size: 15px;
     }
     
+    .about {
+        height: auto;
+    }
+    .about h2{
+        font-size: 20px;
+    }
 }
 
     @media only screen and (max-width: 480px) {
@@ -472,4 +481,27 @@ textarea {
 	.area_1_of_2 {
 		width: 100%; 
 	}
+        
+        nav ul li {
+            display: block;
+            line-height: 25px;
+        }
+        
+        .project1 h1,
+        .project2 h1,
+        .project3 h1,
+        .project4 h1{
+            padding-top: 50px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .project1 h3,
+        .project2 h3,
+        .project3 h3,
+        .project4 h3{
+            line-height: 30px; 
+            padding: 10px 20px 60px 20px;
+            font-size: 15px;
+        }
 }
