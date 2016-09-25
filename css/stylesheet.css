@@ -144,7 +144,9 @@ nav ul li a:hover {
 .project2,
 .project3,
 .project4{
-    height: 600px
+    background: #eff3f5;
+    height: 600px;
+    text-align: center;
 }
 
 .project1 img,
@@ -154,6 +156,43 @@ nav ul li a:hover {
     width: 100%;
 }
 
+.project1 h1,
+.project2 h1,
+.project3 h1,
+.project4 h1{
+    padding-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.project1 h3,
+.project2 h3,
+.project3 h3,
+.project4 h3{
+    line-height: 30px; 
+    padding: 10px 20px 60px 20px;
+    font-size: 20px;
+}
+
+
+
+.project1 .btn-alt,
+.project2 .btn-alt,
+.project3 .btn-alt,
+.project4 .btn-alt {
+    border: solid 2px #333;
+    color: #000;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.project1 .btn-alt:hover,
+.project2 .btn-alt:hover,
+.project3 .btn-alt:hover,
+.project4 .btn-alt:hover {
+    color: #fff;
+    background: #333;
+}
 
 
 /*
