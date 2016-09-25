@@ -140,19 +140,21 @@ nav ul li a:hover {
   ========================================
 */
 
-
-
-/*
-  ========================================
-    SECTIONS
-  ========================================
-*/
-
-.section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
+.project1,
+.project2,
+.project3,
+.project4{
+    height: 600px
 }
+
+.project1 img,
+.project2 img,
+.project3 img,
+.project4 img{
+    width: 100%;
+}
+
+
 
 /*
   ========================================
