@@ -146,6 +146,10 @@ nav ul li a:hover {
     font-weight: 800;
 }
 
+.line {
+    width: 40%;
+} 
+
 .project1,
 .project2,
 .project3,
@@ -487,11 +491,18 @@ textarea {
             line-height: 25px;
         }
         
+        .project1, 
+        .project2,
+        .project3,
+        .project4 {
+            height: 400px;
+        }
+        
         .project1 h1,
         .project2 h1,
         .project3 h1,
         .project4 h1{
-            padding-top: 50px;
+            padding-top: 30px;
             font-size: 20px;
             text-align: center;
         }
@@ -501,7 +512,7 @@ textarea {
         .project3 h3,
         .project4 h3{
             line-height: 30px; 
-            padding: 10px 20px 60px 20px;
+            padding: 10px 20px 30px 20px;
             font-size: 15px;
         }
 }
