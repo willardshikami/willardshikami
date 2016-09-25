@@ -124,14 +124,12 @@ nav ul li a:hover {
   ========================================
 */
 
-
 .area_2_of_2 {
 	width: 100%;
 }
 
 .area_1_of_2 {
-	width: 50%;
-    height: 600px;
+	width: 49.2%;
 }
 
 
@@ -141,29 +139,22 @@ nav ul li a:hover {
   PORTFOLIO SECTION
   ========================================
 */
-.project1 {
-    background-image: url(../images/usagi.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
+
+
+
+/*
+  ========================================
+    SECTIONS
+  ========================================
+*/
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
 }
 
-.project2 {
-    background-image: url(../images/environment.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
-}
-
-.project3 {
-    
-}
-
-
-
-
-
-
+/*
   ========================================
     SECTIONS
   ========================================
@@ -203,7 +194,7 @@ nav ul li a:hover {
 .col {
 	display: block;
 	float:left;
-	margin: 0 0 0 0;
+	margin: 1% 0 1% 1.6%;
 }
 
 .col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
@@ -213,7 +204,7 @@ nav ul li a:hover {
 
 @media only screen and (max-width: 480px) {
 	.col { 
-		margin: 0 0 0 0;
+		margin: 1% 0 1% 0%;
 	}
     
      form {
