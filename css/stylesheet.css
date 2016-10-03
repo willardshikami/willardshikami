@@ -476,7 +476,8 @@ textarea {
 	}
 	.area_1_of_2 {
 		width: 100%;
-        padding-bottom: 10px;
+        height: auto;
+        padding-bottom: 50px;
 	}
     
         
@@ -504,7 +505,9 @@ textarea {
 		width: 100%; 
 	}
 	.area_1_of_2 {
-		width: 100%; 
+		width: 100%;
+        height: auto;
+        padding-bottom: 50px;
 	}
         
         nav ul li {
@@ -516,7 +519,7 @@ textarea {
         .project2,
         .project3,
         .project4 {
-            height: 400px;
+            height: auto;
         }
         
         .project1 h1,
