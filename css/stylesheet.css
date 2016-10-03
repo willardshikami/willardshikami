@@ -144,6 +144,9 @@ nav ul li a:hover {
     font-size: 40px;
     padding: 40px 0 10px 20px;
     font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
 }
 
 .line {
@@ -285,11 +288,24 @@ nav ul li a:hover {
   ========================================
 */
 
+.midline{
+    width: 80%;
+}
+
+.underline {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+}
+
 
 .about {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    height: auto;
 }
 
 .about h1 {
@@ -304,7 +320,7 @@ nav ul li a:hover {
     font-size: 25px;
     font-weight: 300;
     line-height: 40px;
-    padding: 20px 30px 30px 30px;
+    padding: 20px 300px 30px 300px;
     text-align: center;
 }
 
@@ -319,6 +335,10 @@ nav ul li a:hover {
 }
 
 .contact h1 {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    padding: 15px 20px;
     font-size: 40px;
     padding: 40px 0 10px 60px;
     text-align: center;
